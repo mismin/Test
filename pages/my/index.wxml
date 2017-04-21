@@ -1,0 +1,4 @@
+<!--import引入的路径为绝对路径且在app.json中被定义-->
+<import src="/template/template"/>
+<!--data的值本js页面定义-->
+<template is="msgItem" data="{{...item}}"/>  
